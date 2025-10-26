@@ -1,0 +1,45 @@
+:root {
+  --matrix-txt: #ff4fc3;
+}
+
+body {
+  background: black;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.Love__You {
+  color: var(--matrix-txt);
+  justify-content: center;
+  font-family: "Arial", cursive;
+  display: flex;
+  min-height: 100vh;
+  padding: 1rem;
+  margin-top: 50px;
+}
+
+.matrix {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.controls {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 2;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
